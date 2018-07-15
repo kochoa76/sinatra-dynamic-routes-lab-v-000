@@ -20,6 +20,6 @@ class App < Sinatra::Base
     answer += params[:phrase]
   end
   answer 
-end 
+end
 
 end
