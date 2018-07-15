@@ -22,11 +22,9 @@ class App < Sinatra::Base
    answer
  end
 
- get '/say/:word1/:word2/:word3/:word4/:word5' do 
+ get '/say/:word1/:word2/:word3/:word4/:word5' do
 
-   answer = ''
-
-   params[:word1][:word2][:word3][:word4][:word5] 
+   params[:word1][:word2][:word3][:word4][:word5]
  end 
 
 
